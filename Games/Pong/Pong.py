@@ -5,20 +5,6 @@
 
 import turtle
 import winsound
-#Main Game Screen
-def game_intro ():
-    print("[1] Start Game")
-    print("[2] Exit Game")
-
-game_intro()
-option = int(input("Press 1 to Start Game"))
-while option != 0:
-    if option == 1:
-        pass
-    elif option == 2:
-        exit()  
-    else:
-        print("invalid option")
 
 wn = turtle.Screen()
 wn.title("Pong by @ShepherdGaming01")
